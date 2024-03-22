@@ -17,7 +17,7 @@ class BugList(models.Model):
   bug_desc = models.CharField(max_length=500)
   bug_file = models.FileField(upload_to = "bug_file/")
   dev_team = models.ForeignKey(User,on_delete=models.CASCADE,)
-  status = models.CharField(max_length=9,choices=STATUS_CHOICES,default="Open")
+  status = models.CharField(max_length=19,choices=STATUS_CHOICES,default="Open")
 
 
 
