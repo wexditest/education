@@ -25,7 +25,7 @@ SECRET_KEY = 'b@$tp6&1v^9i_0k@4sj=qy%y#p$icn594_w7pp+@1a#yt*0&+k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['just2deepu.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
